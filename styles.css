@@ -17,9 +17,8 @@
     width: 100%;
     height: inherit;
     background-image: linear-gradient(to bottom, black, transparent, black);
-    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
-}
 }
 
 nav {
