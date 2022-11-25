@@ -10,6 +10,7 @@
     background-image: url(first-bg.jpg);
     background-repeat: no-repeat;
     position: relative;
+    box-sizing: border-box;
 }
 
 .hue {
@@ -64,10 +65,10 @@ nav {
 
 .butt {
         border: none;
-        font-size: 26px;
+        font-size: 24px;
         background-color: red;
         color: white;
-        padding: 20px 60px;
+        padding: 15px 30px;
 }
 
 .fh1 {
@@ -79,6 +80,7 @@ nav {
     background-color: black;
     color: #fff;
     display: flex;
+    box-sizing: border-box;
 }
 
 hr {
@@ -216,10 +218,10 @@ video {
 }
 
 .but {
-    font-size: 26px;
+    font-size: 24px;
     background-color: red;
     color: white;
-    padding: 20px 60px;
+    padding: 16px 30px;
 }
 
 /* styling the footer */
