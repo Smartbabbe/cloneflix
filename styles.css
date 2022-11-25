@@ -54,6 +54,7 @@ nav {
     justify-content: center;
     margin: 5% auto;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .putt {
