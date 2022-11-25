@@ -17,7 +17,7 @@
     width: 100%;
     height: inherit;
     background-image: linear-gradient(to bottom, black, transparent, black);
-    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
 }
 }
@@ -31,7 +31,7 @@ nav {
 }
 
 .sign {
-    height: min-content;
+    height: 80%;
     font-size: 18px;
     background-color: red;
     border: none;
@@ -41,19 +41,21 @@ nav {
 }
 
 .content {
+    height: inherit;
     width: 100%;
     position: absolute;
     color: white;
 }
 
 .cnt {
+    height: 80%;
     text-align: center;
     width: 50%;
     font-size: 26px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 5% auto;
+    margin: auto;
     align-items: center;
     box-sizing: border-box;
 }
@@ -254,3 +256,4 @@ td {
     padding: 10px 120px 0 0;
     margin-right: 60px;
 }
+
