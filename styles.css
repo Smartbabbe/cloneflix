@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
 
 /* styling the header */
@@ -17,6 +18,7 @@
     width: 100%;
     height: inherit;
     background-image: linear-gradient(to bottom, black, transparent, black);
+    /* opacity: 0.9; */
     background-size: cover;
     position: absolute;
 }
@@ -60,19 +62,41 @@ nav {
     box-sizing: border-box;
 }
 
+.pmail {
+    font-weight: 500;
+    font-size: 18px;
+}
+
 .putt {
     border: none;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 16px;
+    padding: 0 15px;
     padding-right: 200px;
 }
 
 .butt {
+    font-weight: 600;
         border: none;
-        font-size: 24px;
+        font-size: 22px;
         background-color: red;
         color: white;
         padding: 15px 30px;
+}
+
+.ema2a{
+    display: flex;
+    justify-content: center;
+    /* gap: 0; */
+    margin: 0;
+    border: none;
+    margin-top: 20px;
+}
+
+.emailll {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
 }
 
 .fh1 {
