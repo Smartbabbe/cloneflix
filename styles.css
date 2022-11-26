@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+/* styling the header */
+.div1 {
+    height: 90vh;
+    background-image: url(first-bg.jpg);
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.hue {
+    width: 100%;
+    height: inherit;
+    background-image: linear-gradient(to bottom, black, transparent, black);
+    /* opacity: 0.9; */
+    background-size: cover;
+    position: absolute;
+}
+
+nav {
+    padding: 30px 0px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.sign {
+    height: 80%;
+    font-size: 18px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 8px;
+}
+
+.content {
+    height: inherit;
+    width: 100%;
+    position: absolute;
+    color: white;
+}
+
+.cnt {
+    height: 80%;
+    text-align: center;
+    width: 50%;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.pmail {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.putt {
+    border: none;
+    font-size: 16px;
+    padding: 0 15px;
+    padding-right: 200px;
+}
+
+.butt {
+    font-weight: 600;
+        border: none;
+        font-size: 22px;
+        background-color: red;
+        color: white;
+        padding: 15px 30px;
+}
+
+.ema2a{
+    display: flex;
+    justify-content: center;
+    /* gap: 0; */
+    margin: 0;
+    border: none;
+    margin-top: 20px;
+}
+
+.emailll {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.fh1 {
+    font-weight: 700;
+}
+
+/* giving all other section their background colour */
+.div2, .div3, .div4, .div5, .div6, .div7 {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    box-sizing: border-box;
+}
+
+hr {
+    height: 10px;
+    background-color: rgb(34, 32, 32);
+    border: none;
+}
+
+/* styling next section */
+.div2 {
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div2a {
+    width: 40%;
+}
+
+.div2a h1, .div3 h1 {
+    font-size: 56px;
+}
+
+.div2a h3, .div3b h3 {
+    font-size: 22px;
+}
+
+.div2b {
+    width: 640px;
+    height: 450px;
+    background-image: url(tv.png);
+}
+
+video {
+    padding: 14% 12%;
+}
+
+/* styling next section */
+.div3 {
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div3b {
+    width: 50%;
+}
+
+/* styling next section  */
+.div4 {
+    height: 30vh;
+    padding: 40px 70px;
+}
+
+.div4 h1{
+    font-size: 48px;
+}
+
+.div4 h3{
+    font-size: 26px;
+}
+
+/* styling next section */
+.div5 {    
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div5b {
+    width: 50%;
+}
+
+.div5 h1{
+    font-size: 48px;
+}
+
+.div5 h3{
+    font-size: 26px;
+}
+
+/* styling next section */
+.div6 {
+    width: 100%;
+    /* height: fit-content; */
+    flex-direction: column;
+}
+
+.div6a, .div6b {
+    width: 55%;
+    margin: auto;
+}
+
+.div6a h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.div6b .quest {
+    width: 100%;
+    padding: 25px;
+    background-color: rgb(51, 50, 50);
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.emaill {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
+    font-size: 26px;
+}
+
+.ema2{
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin: 0;
+    border: none;
+    margin-top: 20px;
+}
+
+.put {
+    font-size: 20px;
+    padding: 20px;
+    padding-right: 200px;
+}
+
+.but {
+    font-size: 24px;
+    background-color: red;
+    color: white;
+    padding: 16px 30px;
+}
+
+/* styling the footer */
+.div7 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+.sdiv7 {
+    padding: 20px;
+    width: 70%;
+}
+
+.sdiv7 p {
+    font-size: 20px;
+}
+
+table {
+    margin: 20px 0;
+
+}
+
+td {
+    gap: 30px;
+    text-align: left;
+    padding: 10px 120px 0 0;
+    margin-right: 60px;
+}
+
